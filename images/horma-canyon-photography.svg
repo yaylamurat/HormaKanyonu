@@ -1,0 +1,192 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background sky with gradient -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4682B4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2F4F4F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="400" height="300" fill="url(#skyGradient)"/>
+  
+  <!-- Canyon walls with detailed layers -->
+  <path d="M0 30 Q50 20 100 25 Q150 20 200 30 Q250 25 300 35 Q350 30 400 40 L400 300 L0 300 Z" fill="#8B7355"/>
+  <path d="M0 60 Q60 50 120 55 Q180 50 240 60 Q300 55 360 65 Q380 60 400 70 L400 300 L0 300 Z" fill="#A0926B"/>
+  <path d="M0 90 Q80 80 160 85 Q240 80 320 90 Q360 85 400 95 L400 300 L0 300 Z" fill="#B8A082"/>
+  
+  <!-- Waterfall (Ilıca Şelalesi) -->
+  <path d="M320 95 Q325 120 330 150 Q335 180 340 210 Q345 230 350 250" stroke="#87CEEB" stroke-width="8" fill="none" opacity="0.8"/>
+  <path d="M325 95 Q330 120 335 150 Q340 180 345 210 Q350 230 355 250" stroke="#B0E0E6" stroke-width="6" fill="none" opacity="0.6"/>
+  <path d="M330 95 Q335 120 340 150 Q345 180 350 210 Q355 230 360 250" stroke="#E0F6FF" stroke-width="4" fill="none" opacity="0.4"/>
+  
+  <!-- Waterfall pool -->
+  <ellipse cx="350" cy="250" rx="25" ry="8" fill="url(#waterGradient)"/>
+  <ellipse cx="350" cy="248" rx="20" ry="6" fill="#87CEEB" opacity="0.6"/>
+  
+  <!-- Stream (Zarı Çayı) -->
+  <path d="M0 240 Q100 230 200 235 Q300 230 400 240 L400 300 L0 300 Z" fill="url(#waterGradient)"/>
+  <path d="M0 250 Q150 240 300 245 Q350 242 400 250 L400 300 L0 300 Z" fill="#5F9EA0"/>
+  
+  <!-- Water reflections -->
+  <ellipse cx="80" cy="245" rx="15" ry="3" fill="#87CEEB" opacity="0.5"/>
+  <ellipse cx="200" cy="248" rx="20" ry="4" fill="#87CEEB" opacity="0.5"/>
+  <ellipse cx="280" cy="246" rx="18" ry="3" fill="#87CEEB" opacity="0.5"/>
+  
+  <!-- Wooden photography platform -->
+  <rect x="150" y="180" width="80" height="40" fill="#D2691E" rx="5"/>
+  <rect x="155" y="185" width="70" height="30" fill="#CD853F" rx="3"/>
+  
+  <!-- Platform railings -->
+  <rect x="150" y="175" width="80" height="3" fill="#8B4513"/>
+  <rect x="150" y="175" width="3" height="15" fill="#8B4513"/>
+  <rect x="227" y="175" width="3" height="15" fill="#8B4513"/>
+  <rect x="165" y="175" width="2" height="12" fill="#8B4513"/>
+  <rect x="180" y="175" width="2" height="12" fill="#8B4513"/>
+  <rect x="195" y="175" width="2" height="12" fill="#8B4513"/>
+  <rect x="210" y="175" width="2" height="12" fill="#8B4513"/>
+  
+  <!-- Platform support beams -->
+  <rect x="160" y="220" width="4" height="25" fill="#8B4513"/>
+  <rect x="180" y="220" width="4" height="25" fill="#8B4513"/>
+  <rect x="200" y="220" width="4" height="25" fill="#8B4513"/>
+  <rect x="220" y="220" width="4" height="25" fill="#8B4513"/>
+  
+  <!-- Photographers on platform -->
+  <!-- Photographer 1 (with tripod) -->
+  <circle cx="170" cy="165" r="4" fill="#FFE4C4"/>
+  <rect x="168" y="169" width="4" height="8" fill="#4169E1"/>
+  <rect x="166" y="177" width="2" height="6" fill="#000080"/>
+  <rect x="172" y="177" width="2" height="6" fill="#000080"/>
+  
+  <!-- Camera on tripod -->
+  <rect x="175" y="170" width="8" height="4" fill="#000000"/>
+  <rect x="177" y="168" width="4" height="2" fill="#333333"/>
+  <rect x="180" y="174" width="2" height="8" fill="#696969"/> <!-- Tripod leg 1 -->
+  <rect x="176" y="174" width="2" height="8" fill="#696969"/> <!-- Tripod leg 2 -->
+  <rect x="184" y="174" width="2" height="8" fill="#696969"/> <!-- Tripod leg 3 -->
+  
+  <!-- Photographer 2 (handheld camera) -->
+  <circle cx="200" cy="165" r="4" fill="#FFE4C4"/>
+  <rect x="198" y="169" width="4" height="8" fill="#FF6347"/>
+  <rect x="196" y="177" width="2" height="6" fill="#000080"/>
+  <rect x="202" y="177" width="2" height="6" fill="#000080"/>
+  <rect x="194" y="171" width="6" height="3" fill="#000000"/> <!-- Camera -->
+  <circle cx="191" cy="172" r="1" fill="#333333"/> <!-- Lens -->
+  
+  <!-- Tourist taking selfie -->
+  <circle cx="220" cy="165" r="4" fill="#FFE4C4"/>
+  <rect x="218" y="169" width="4" height="8" fill="#32CD32"/>
+  <rect x="216" y="177" width="2" height="6" fill="#000080"/>
+  <rect x="222" y="177" width="2" height="6" fill="#000080"/>
+  <rect x="225" y="169" width="3" height="2" fill="#000000"/> <!-- Phone -->
+  <line x1="222" y1="171" x2="225" y2="170" stroke="#FFE4C4" stroke-width="2"/> <!-- Arm -->
+  
+  <!-- Photography spots markers -->
+  <!-- Spot 1 -->
+  <circle cx="100" cy="150" r="8" fill="#FFD700" opacity="0.8"/>
+  <text x="100" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">1</text>
+  
+  <!-- Spot 2 -->
+  <circle cx="280" cy="140" r="8" fill="#FFD700" opacity="0.8"/>
+  <text x="280" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">2</text>
+  
+  <!-- Spot 3 -->
+  <circle cx="350" cy="200" r="8" fill="#FFD700" opacity="0.8"/>
+  <text x="350" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">3</text>
+  
+  <!-- Photography equipment -->
+  <!-- Camera bag -->
+  <rect x="240" y="185" width="12" height="8" fill="#654321"/>
+  <rect x="242" y="187" width="8" height="4" fill="#8B4513"/>
+  <circle cx="246" cy="189" r="1" fill="#FFD700"/> <!-- Zipper -->
+  
+  <!-- Lens case -->
+  <ellipse cx="255" cy="190" rx="4" ry="6" fill="#2F4F4F"/>
+  <ellipse cx="255" cy="188" rx="3" ry="4" fill="#696969"/>
+  
+  <!-- Memory cards -->
+  <rect x="265" y="188" width="3" height="4" fill="#000000"/>
+  <rect x="269" y="188" width="3" height="4" fill="#000000"/>
+  
+  <!-- Trees and vegetation -->
+  <!-- Pine trees -->
+  <polygon points="50,120 45,160 55,160" fill="#228B22"/>
+  <polygon points="50,130 42,160 58,160" fill="#32CD32"/>
+  <rect x="49" y="160" width="2" height="15" fill="#654321"/>
+  
+  <polygon points="370,110 365,150 375,150" fill="#228B22"/>
+  <polygon points="370,120 362,150 378,150" fill="#32CD32"/>
+  <rect x="369" y="150" width="2" height="15" fill="#654321"/>
+  
+  <!-- Boxwood bushes -->
+  <ellipse cx="80" cy="170" rx="12" ry="8" fill="#228B22"/>
+  <ellipse cx="85" cy="168" rx="8" ry="6" fill="#32CD32"/>
+  
+  <ellipse cx="320" cy="175" rx="15" ry="10" fill="#228B22"/>
+  <ellipse cx="325" cy="173" rx="10" ry="7" fill="#32CD32"/>
+  
+  <!-- Flowers for foreground -->
+  <circle cx="60" cy="200" r="2" fill="#FF69B4"/>
+  <circle cx="65" cy="198" r="1.5" fill="#FF1493"/>
+  <circle cx="70" cy="202" r="2" fill="#9370DB"/>
+  
+  <circle cx="300" cy="205" r="2" fill="#FFD700"/>
+  <circle cx="305" cy="203" r="1.5" fill="#FFA500"/>
+  <circle cx="310" cy="207" r="2" fill="#FF69B4"/>
+  
+  <!-- Birds in flight -->
+  <path d="M120 60 Q125 58 130 60 Q125 62 120 60" fill="#2F4F4F"/>
+  <path d="M250 50 Q255 48 260 50 Q255 52 250 50" fill="#2F4F4F"/>
+  <path d="M300 70 Q305 68 310 70 Q305 72 300 70" fill="#2F4F4F"/>
+  
+  <!-- Sun rays (golden hour lighting) -->
+  <line x1="350" y1="20" x2="340" y2="80" stroke="#FFD700" stroke-width="2" opacity="0.6"/>
+  <line x1="360" y1="25" x2="350" y2="85" stroke="#FFD700" stroke-width="2" opacity="0.6"/>
+  <line x1="370" y1="30" x2="360" y2="90" stroke="#FFD700" stroke-width="2" opacity="0.6"/>
+  <line x1="380" y1="35" x2="370" y2="95" stroke="#FFD700" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Clouds -->
+  <circle cx="80" cy="40" r="12" fill="white" opacity="0.9"/>
+  <circle cx="92" cy="40" r="15" fill="white" opacity="0.9"/>
+  <circle cx="105" cy="40" r="12" fill="white" opacity="0.9"/>
+  
+  <circle cx="280" cy="35" r="10" fill="white" opacity="0.9"/>
+  <circle cx="290" cy="35" r="13" fill="white" opacity="0.9"/>
+  <circle cx="302" cy="35" r="10" fill="white" opacity="0.9"/>
+  
+  <!-- Title -->
+  <text x="200" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2C2C2C">Fotoğraf Çekimi Noktaları</text>
+  
+  <!-- Legend -->
+  <g transform="translate(10, 20)">
+    <rect x="0" y="0" width="160" height="120" fill="white" stroke="#ccc" stroke-width="1" rx="5" opacity="0.95"/>
+    <text x="80" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">Çekim Noktaları</text>
+    
+    <circle cx="15" cy="28" r="6" fill="#FFD700" opacity="0.8"/>
+    <text x="15" y="32" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#333">1</text>
+    <text x="30" y="32" font-family="Arial, sans-serif" font-size="10" fill="#333">Panoramik Manzara</text>
+    
+    <circle cx="15" cy="43" r="6" fill="#FFD700" opacity="0.8"/>
+    <text x="15" y="47" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#333">2</text>
+    <text x="30" y="47" font-family="Arial, sans-serif" font-size="10" fill="#333">Kanyon Detayları</text>
+    
+    <circle cx="15" cy="58" r="6" fill="#FFD700" opacity="0.8"/>
+    <text x="15" y="62" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#333">3</text>
+    <text x="30" y="62" font-family="Arial, sans-serif" font-size="10" fill="#333">Ilıca Şelalesi</text>
+    
+    <rect x="10" y="70" width="80" height="3" fill="#D2691E"/>
+    <text x="95" y="75" font-family="Arial, sans-serif" font-size="10" fill="#333">Ahşap Platform</text>
+    
+    <rect x="10" y="82" width="8" height="4" fill="#000000"/>
+    <text x="25" y="86" font-family="Arial, sans-serif" font-size="10" fill="#333">Fotoğraf Ekipmanı</text>
+    
+    <line x1="10" y1="95" x2="25" y2="95" stroke="#FFD700" stroke-width="2"/>
+    <text x="30" y="98" font-family="Arial, sans-serif" font-size="10" fill="#333">Altın Saat Işığı</text>
+    
+    <text x="80" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">En İyi Saatler: 06:00-08:00, 17:00-19:00</text>
+  </g>
+</svg>

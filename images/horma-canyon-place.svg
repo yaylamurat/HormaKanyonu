@@ -1,0 +1,138 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky gradient -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="rockGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B7355;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#A0522D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#654321;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4682B4;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#1E90FF;stop-opacity:0.9" />
+    </linearGradient>
+    <linearGradient id="forestGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#228B22;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#006400;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bridgeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#D2691E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B4513;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="400" height="120" fill="url(#skyGradient)"/>
+  
+  <!-- Clouds -->
+  <ellipse cx="80" cy="30" rx="25" ry="10" fill="white" opacity="0.8"/>
+  <ellipse cx="70" cy="32" rx="15" ry="8" fill="white" opacity="0.8"/>
+  <ellipse cx="90" cy="32" rx="12" ry="6" fill="white" opacity="0.8"/>
+  
+  <ellipse cx="300" cy="45" rx="30" ry="12" fill="white" opacity="0.7"/>
+  <ellipse cx="285" cy="47" rx="18" ry="10" fill="white" opacity="0.7"/>
+  <ellipse cx="315" cy="47" rx="15" ry="8" fill="white" opacity="0.7"/>
+  
+  <!-- Canyon walls with realistic layering -->
+  <polygon points="0,120 120,120 90,200 0,300" fill="url(#rockGradient)"/>
+  <polygon points="400,120 280,120 310,200 400,300" fill="url(#rockGradient)"/>
+  
+  <!-- Rock layers and texture -->
+  <path d="M 0 140 Q 60 135 120 140 L 100 170 Q 50 165 0 170 Z" fill="#A0522D" opacity="0.7"/>
+  <path d="M 280 140 Q 340 135 400 140 L 400 170 Q 340 165 320 170 Z" fill="#A0522D" opacity="0.7"/>
+  
+  <!-- Canyon floor with vegetation -->
+  <polygon points="90,200 310,200 340,300 60,300" fill="#8FBC8F"/>
+  
+  <!-- Zarı Stream (şırıl şırıl akan dere) -->
+  <path d="M 100 220 Q 150 215 200 220 Q 250 225 300 220" 
+        stroke="url(#waterGradient)" stroke-width="8" fill="none" opacity="0.9"/>
+  <path d="M 105 222 Q 145 217 195 222 Q 245 227 295 222" 
+        stroke="#87CEEB" stroke-width="4" fill="none" opacity="0.7"/>
+  
+  <!-- Water reflections -->
+  <ellipse cx="150" cy="222" rx="8" ry="2" fill="white" opacity="0.6"/>
+  <ellipse cx="200" cy="222" rx="6" ry="1" fill="white" opacity="0.5"/>
+  <ellipse cx="250" cy="222" rx="10" ry="2" fill="white" opacity="0.6"/>
+  
+  <!-- Forest on canyon rim (Küre Dağları ormanı) -->
+  <polygon points="0,110 120,110 120,130 0,130" fill="url(#forestGradient)"/>
+  <polygon points="280,110 400,110 400,130 280,130" fill="url(#forestGradient)"/>
+  
+  <!-- Dense tree coverage -->
+  <circle cx="20" cy="120" r="8" fill="#2F4F2F"/>
+  <circle cx="35" cy="118" r="10" fill="#228B22"/>
+  <circle cx="55" cy="120" r="6" fill="#2F4F2F"/>
+  <circle cx="70" cy="119" r="9" fill="#228B22"/>
+  <circle cx="90" cy="120" r="7" fill="#2F4F2F"/>
+  <circle cx="105" cy="118" r="11" fill="#228B22"/>
+  
+  <circle cx="295" cy="120" r="8" fill="#2F4F2F"/>
+  <circle cx="310" cy="118" r="10" fill="#228B22"/>
+  <circle cx="330" cy="120" r="6" fill="#2F4F2F"/>
+  <circle cx="345" cy="119" r="9" fill="#228B22"/>
+  <circle cx="365" cy="120" r="7" fill="#2F4F2F"/>
+  <circle cx="380" cy="118" r="11" fill="#228B22"/>
+  
+  <!-- Wooden platform (ahşap yürüyüş yolu) -->
+  <rect x="100" y="190" width="200" height="8" fill="url(#bridgeGradient)" rx="1"/>
+  
+  <!-- Platform supports -->
+  <rect x="110" y="190" width="4" height="20" fill="#654321"/>
+  <rect x="125" y="190" width="4" height="15" fill="#654321"/>
+  <rect x="140" y="190" width="4" height="25" fill="#654321"/>
+  <rect x="155" y="190" width="4" height="12" fill="#654321"/>
+  <rect x="170" y="190" width="4" height="22" fill="#654321"/>
+  <rect x="185" y="190" width="4" height="18" fill="#654321"/>
+  <rect x="200" y="190" width="4" height="20" fill="#654321"/>
+  <rect x="215" y="190" width="4" height="15" fill="#654321"/>
+  <rect x="230" y="190" width="4" height="25" fill="#654321"/>
+  <rect x="245" y="190" width="4" height="12" fill="#654321"/>
+  <rect x="260" y="190" width="4" height="18" fill="#654321"/>
+  <rect x="275" y="190" width="4" height="20" fill="#654321"/>
+  <rect x="290" y="190" width="4" height="15" fill="#654321"/>
+  
+  <!-- Platform planks -->
+  <rect x="100" y="190" width="200" height="1" fill="#8B4513"/>
+  <rect x="100" y="192" width="200" height="1" fill="#A0522D"/>
+  <rect x="100" y="194" width="200" height="1" fill="#8B4513"/>
+  <rect x="100" y="196" width="200" height="1" fill="#A0522D"/>
+  
+  <!-- Suspension bridge cables (asma köprü) -->
+  <path d="M 100 190 Q 200 180 300 190" stroke="#654321" stroke-width="2" fill="none"/>
+  <path d="M 100 193 Q 200 183 300 193" stroke="#654321" stroke-width="2" fill="none"/>
+  
+  <!-- Cable supports -->
+  <line x1="130" y1="190" x2="130" y2="185" stroke="#654321" stroke-width="1"/>
+  <line x1="160" y1="190" x2="160" y2="182" stroke="#654321" stroke-width="1"/>
+  <line x1="200" y1="190" x2="200" y2="180" stroke="#654321" stroke-width="1"/>
+  <line x1="240" y1="190" x2="240" y2="182" stroke="#654321" stroke-width="1"/>
+  <line x1="270" y1="190" x2="270" y2="185" stroke="#654321" stroke-width="1"/>
+  
+  <!-- Ilıca Waterfall (10-15 metre yükseklik) -->
+  <rect x="320" y="120" width="6" height="70" fill="url(#waterGradient)" opacity="0.8"/>
+  <rect x="322" y="120" width="2" height="70" fill="white" opacity="0.6"/>
+  
+  <!-- Natural pool (doğal havuz) -->
+  <ellipse cx="323" cy="200" rx="25" ry="8" fill="url(#waterGradient)" opacity="0.8"/>
+  <ellipse cx="323" cy="200" rx="20" ry="6" fill="#87CEEB" opacity="0.6"/>
+  
+  <!-- Waterfall mist -->
+  <ellipse cx="323" cy="185" rx="12" ry="4" fill="white" opacity="0.4"/>
+  <ellipse cx="323" cy="180" rx="8" ry="3" fill="white" opacity="0.3"/>
+  
+  <!-- Picnic areas (piknik kamelyaları) -->
+  <rect x="50" y="240" width="20" height="15" fill="#8B4513" rx="2"/>
+  <polygon points="50,240 60,230 70,240" fill="#654321"/>
+  
+  <rect x="330" y="250" width="20" height="15" fill="#8B4513" rx="2"/>
+  <polygon points="330,250 340,240 350,250" fill="#654321"/>
+  
+  <!-- Viewing tower (seyir kulesi) -->
+  <rect x="370" y="200" width="8" height="40" fill="#8B4513"/>
+  <rect x="368" y="200" width="12" height="8" fill="#654321"/>
+  <polygon points="368,200 374,190 380,200" fill="#A0522D"/>
+</svg>

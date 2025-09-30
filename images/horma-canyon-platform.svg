@@ -1,0 +1,166 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background sky -->
+  <rect width="400" height="300" fill="#87CEEB"/>
+  
+  <!-- Canyon walls -->
+  <path d="M0 50 Q50 30 100 40 Q150 35 200 45 Q250 40 300 50 Q350 45 400 55 L400 300 L0 300 Z" fill="#8B7355"/>
+  <path d="M0 80 Q60 60 120 70 Q180 65 240 75 Q300 70 360 80 Q380 75 400 85 L400 300 L0 300 Z" fill="#A0926B"/>
+  
+  <!-- Stream at bottom -->
+  <path d="M0 250 Q100 240 200 245 Q300 240 400 250 L400 300 L0 300 Z" fill="#4682B4"/>
+  <path d="M0 260 Q150 250 300 255 Q350 252 400 260 L400 300 L0 300 Z" fill="#5F9EA0"/>
+  
+  <!-- Water flow effects -->
+  <path d="M50 255 Q100 250 150 255 Q200 250 250 255" stroke="#87CEEB" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M100 260 Q150 255 200 260 Q250 255 300 260" stroke="#B0E0E6" stroke-width="1.5" fill="none" opacity="0.6"/>
+  
+  <!-- Wooden platform structure -->
+  <!-- Main platform planks -->
+  <rect x="20" y="180" width="360" height="12" fill="#D2691E" rx="2"/>
+  <rect x="20" y="194" width="360" height="12" fill="#CD853F" rx="2"/>
+  
+  <!-- Platform support beams -->
+  <rect x="40" y="180" width="8" height="70" fill="#8B4513"/>
+  <rect x="80" y="180" width="8" height="65" fill="#8B4513"/>
+  <rect x="120" y="180" width="8" height="60" fill="#8B4513"/>
+  <rect x="160" y="180" width="8" height="55" fill="#8B4513"/>
+  <rect x="200" y="180" width="8" height="50" fill="#8B4513"/>
+  <rect x="240" y="180" width="8" height="55" fill="#8B4513"/>
+  <rect x="280" y="180" width="8" height="60" fill="#8B4513"/>
+  <rect x="320" y="180" width="8" height="65" fill="#8B4513"/>
+  <rect x="360" y="180" width="8" height="70" fill="#8B4513"/>
+  
+  <!-- Steel reinforcement (visible bolts and connections) -->
+  <circle cx="44" cy="185" r="2" fill="#696969"/>
+  <circle cx="84" cy="185" r="2" fill="#696969"/>
+  <circle cx="124" cy="185" r="2" fill="#696969"/>
+  <circle cx="164" cy="185" r="2" fill="#696969"/>
+  <circle cx="204" cy="185" r="2" fill="#696969"/>
+  <circle cx="244" cy="185" r="2" fill="#696969"/>
+  <circle cx="284" cy="185" r="2" fill="#696969"/>
+  <circle cx="324" cy="185" r="2" fill="#696969"/>
+  <circle cx="364" cy="185" r="2" fill="#696969"/>
+  
+  <!-- Platform railings -->
+  <!-- Left railing -->
+  <rect x="15" y="160" width="4" height="40" fill="#8B4513"/>
+  <rect x="15" y="160" width="370" height="4" fill="#8B4513"/>
+  
+  <!-- Right railing -->
+  <rect x="381" y="160" width="4" height="40" fill="#8B4513"/>
+  
+  <!-- Railing posts -->
+  <rect x="60" y="160" width="4" height="20" fill="#8B4513"/>
+  <rect x="120" y="160" width="4" height="20" fill="#8B4513"/>
+  <rect x="180" y="160" width="4" height="20" fill="#8B4513"/>
+  <rect x="240" y="160" width="4" height="20" fill="#8B4513"/>
+  <rect x="300" y="160" width="4" height="20" fill="#8B4513"/>
+  <rect x="340" y="160" width="4" height="20" fill="#8B4513"/>
+  
+  <!-- People walking on platform -->
+  <!-- Person 1 -->
+  <circle cx="100" cy="150" r="4" fill="#FFE4C4"/> <!-- Head -->
+  <rect x="98" y="154" width="4" height="8" fill="#FF6347"/> <!-- Body -->
+  <rect x="96" y="162" width="2" height="6" fill="#000080"/> <!-- Legs -->
+  <rect x="102" y="162" width="2" height="6" fill="#000080"/>
+  <rect x="94" y="156" width="3" height="1" fill="#FFE4C4"/> <!-- Arm -->
+  <rect x="107" y="156" width="3" height="1" fill="#FFE4C4"/> <!-- Arm -->
+  
+  <!-- Person 2 -->
+  <circle cx="250" cy="150" r="4" fill="#FFE4C4"/>
+  <rect x="248" y="154" width="4" height="8" fill="#32CD32"/>
+  <rect x="246" y="162" width="2" height="6" fill="#000080"/>
+  <rect x="252" y="162" width="2" height="6" fill="#000080"/>
+  <rect x="244" y="156" width="3" height="1" fill="#FFE4C4"/>
+  <rect x="257" y="156" width="3" height="1" fill="#FFE4C4"/>
+  
+  <!-- Person 3 (child) -->
+  <circle cx="320" cy="152" r="3" fill="#FFE4C4"/>
+  <rect x="318" y="155" width="4" height="6" fill="#FF69B4"/>
+  <rect x="317" y="161" width="2" height="4" fill="#000080"/>
+  <rect x="321" y="161" width="2" height="4" fill="#000080"/>
+  
+  <!-- Platform shadows -->
+  <ellipse cx="200" cy="270" rx="180" ry="15" fill="#000000" opacity="0.2"/>
+  
+  <!-- Rock anchoring points -->
+  <rect x="35" y="120" width="15" height="60" fill="#696969"/>
+  <rect x="75" y="115" width="15" height="65" fill="#696969"/>
+  <rect x="315" y="115" width="15" height="65" fill="#696969"/>
+  <rect x="355" y="120" width="15" height="60" fill="#696969"/>
+  
+  <!-- Steel cables and supports -->
+  <line x1="42" y1="120" x2="42" y2="180" stroke="#2F4F4F" stroke-width="3"/>
+  <line x1="82" y1="115" x2="82" y2="180" stroke="#2F4F4F" stroke-width="3"/>
+  <line x1="322" y1="115" x2="322" y2="180" stroke="#2F4F4F" stroke-width="3"/>
+  <line x1="362" y1="120" x2="362" y2="180" stroke="#2F4F4F" stroke-width="3"/>
+  
+  <!-- Platform texture (wood grain) -->
+  <path d="M25 185 Q50 183 75 185 Q100 183 125 185" stroke="#A0522D" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M150 185 Q175 183 200 185 Q225 183 250 185" stroke="#A0522D" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M275 185 Q300 183 325 185 Q350 183 375 185" stroke="#A0522D" stroke-width="0.5" fill="none" opacity="0.6"/>
+  
+  <path d="M25 199 Q50 197 75 199 Q100 197 125 199" stroke="#A0522D" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M150 199 Q175 197 200 199 Q225 197 250 199" stroke="#A0522D" stroke-width="0.5" fill="none" opacity="0.6"/>
+  <path d="M275 199 Q300 197 325 199 Q350 197 375 199" stroke="#A0522D" stroke-width="0.5" fill="none" opacity="0.6"/>
+  
+  <!-- Vegetation on canyon walls -->
+  <circle cx="30" cy="100" r="3" fill="#228B22"/>
+  <circle cx="35" cy="95" r="2" fill="#32CD32"/>
+  <circle cx="370" cy="105" r="3" fill="#228B22"/>
+  <circle cx="375" cy="100" r="2" fill="#32CD32"/>
+  
+  <!-- Small trees -->
+  <rect x="10" y="90" width="3" height="15" fill="#8B4513"/>
+  <circle cx="11.5" cy="90" r="8" fill="#228B22"/>
+  
+  <rect x="385" y="95" width="3" height="12" fill="#8B4513"/>
+  <circle cx="386.5" cy="95" r="6" fill="#228B22"/>
+  
+  <!-- Distance markers on platform -->
+  <rect x="80" y="175" width="8" height="3" fill="#FFD700"/>
+  <text x="84" y="173" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333">1km</text>
+  
+  <rect x="200" y="175" width="8" height="3" fill="#FFD700"/>
+  <text x="204" y="173" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333">2km</text>
+  
+  <rect x="320" y="175" width="8" height="3" fill="#FFD700"/>
+  <text x="324" y="173" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#333">3km</text>
+  
+  <!-- Safety equipment -->
+  <rect x="150" y="165" width="6" height="10" fill="#FF0000"/>
+  <text x="153" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="6" fill="#333">İlk Yardım</text>
+  
+  <!-- Clouds -->
+  <circle cx="80" cy="30" r="12" fill="white" opacity="0.8"/>
+  <circle cx="92" cy="30" r="15" fill="white" opacity="0.8"/>
+  <circle cx="105" cy="30" r="12" fill="white" opacity="0.8"/>
+  
+  <circle cx="300" cy="40" r="10" fill="white" opacity="0.8"/>
+  <circle cx="310" cy="40" r="13" fill="white" opacity="0.8"/>
+  <circle cx="322" cy="40" r="10" fill="white" opacity="0.8"/>
+  
+  <!-- Title -->
+  <text x="200" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2C2C2C">3 Km Ahşap Yürüyüş Platformu</text>
+  
+  <!-- Legend -->
+  <g transform="translate(20, 20)">
+    <rect x="0" y="0" width="160" height="90" fill="white" stroke="#ccc" stroke-width="1" rx="5" opacity="0.9"/>
+    <text x="80" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">Platform Özellikleri</text>
+    
+    <rect x="10" y="25" width="12" height="4" fill="#D2691E"/>
+    <text x="28" y="30" font-family="Arial, sans-serif" font-size="10" fill="#333">Ahşap Platform</text>
+    
+    <circle cx="16" cy="40" r="2" fill="#696969"/>
+    <text x="28" y="45" font-family="Arial, sans-serif" font-size="10" fill="#333">Çelik Destek (270 ton)</text>
+    
+    <rect x="10" y="50" width="8" height="6" fill="#8B4513"/>
+    <text x="28" y="55" font-family="Arial, sans-serif" font-size="10" fill="#333">Güvenlik Korkulukları</text>
+    
+    <rect x="10" y="65" width="8" height="4" fill="#FFD700"/>
+    <text x="28" y="70" font-family="Arial, sans-serif" font-size="10" fill="#333">Mesafe İşaretleri</text>
+    
+    <rect x="10" y="80" width="6" height="4" fill="#FF0000"/>
+    <text x="28" y="85" font-family="Arial, sans-serif" font-size="10" fill="#333">Güvenlik Ekipmanları</text>
+  </g>
+</svg>

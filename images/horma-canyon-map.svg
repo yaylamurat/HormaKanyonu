@@ -1,0 +1,126 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f0f8ff"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">Horma Kanyonu Detay Haritası</text>
+  
+  <!-- Canyon walls -->
+  <path d="M50 100 Q200 80 350 120 Q500 140 650 110 Q750 100 800 120 L800 500 Q750 480 650 490 Q500 500 350 480 Q200 490 50 500 Z" fill="#8b7355" stroke="#654321" stroke-width="2"/>
+  <path d="M80 130 Q220 110 370 150 Q520 170 680 140 Q770 130 800 150 L800 470 Q770 450 680 460 Q520 470 370 450 Q220 460 80 470 Z" fill="#a0926b" stroke="#7a6b47" stroke-width="1"/>
+  
+  <!-- Canyon floor/stream -->
+  <path d="M100 200 Q250 180 400 220 Q550 240 700 210 L700 400 Q550 380 400 400 Q250 420 100 400 Z" fill="#e8f4f8" stroke="#4a90e2" stroke-width="2"/>
+  
+  <!-- Zarı Stream -->
+  <path d="M100 300 Q200 290 300 310 Q400 320 500 300 Q600 290 700 305" fill="none" stroke="#4a90e2" stroke-width="4"/>
+  <path d="M100 300 Q200 290 300 310 Q400 320 500 300 Q600 290 700 305" fill="none" stroke="#87ceeb" stroke-width="2"/>
+  
+  <!-- Wooden walking platform -->
+  <rect x="120" y="280" width="560" height="40" fill="#8b4513" stroke="#654321" stroke-width="2" rx="5"/>
+  <!-- Platform supports -->
+  <rect x="140" y="320" width="8" height="60" fill="#654321"/>
+  <rect x="200" y="320" width="8" height="50" fill="#654321"/>
+  <rect x="260" y="320" width="8" height="70" fill="#654321"/>
+  <rect x="320" y="320" width="8" height="55" fill="#654321"/>
+  <rect x="380" y="320" width="8" height="65" fill="#654321"/>
+  <rect x="440" y="320" width="8" height="50" fill="#654321"/>
+  <rect x="500" y="320" width="8" height="75" fill="#654321"/>
+  <rect x="560" y="320" width="8" height="60" fill="#654321"/>
+  <rect x="620" y="320" width="8" height="55" fill="#654321"/>
+  
+  <!-- Suspension bridge cables -->
+  <path d="M120 280 Q400 260 680 280" fill="none" stroke="#666" stroke-width="3"/>
+  <path d="M120 285 Q400 265 680 285" fill="none" stroke="#666" stroke-width="2"/>
+  
+  <!-- Trees and forest -->
+  <circle cx="70" cy="150" r="25" fill="#228b22"/>
+  <circle cx="90" cy="140" r="20" fill="#32cd32"/>
+  <circle cx="110" cy="160" r="22" fill="#228b22"/>
+  <circle cx="720" cy="140" r="28" fill="#228b22"/>
+  <circle cx="740" cy="160" r="24" fill="#32cd32"/>
+  <circle cx="760" cy="145" r="26" fill="#228b22"/>
+  
+  <!-- More trees along the canyon -->
+  <circle cx="150" cy="120" r="18" fill="#228b22"/>
+  <circle cx="180" cy="110" r="16" fill="#32cd32"/>
+  <circle cx="620" cy="115" r="20" fill="#228b22"/>
+  <circle cx="650" cy="125" r="18" fill="#32cd32"/>
+  
+  <!-- Ilıca Waterfall -->
+  <rect x="600" y="180" width="80" height="120" fill="#87ceeb" opacity="0.7" rx="10"/>
+  <path d="M620 180 Q640 200 660 180 Q640 220 660 240 Q640 260 660 280 Q640 300 660 300" fill="none" stroke="#4a90e2" stroke-width="3"/>
+  <circle cx="640" cy="310" r="25" fill="#87ceeb" opacity="0.8"/>
+  <text x="640" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Ilıca Şelalesi</text>
+  
+  <!-- Viewing platform -->
+  <rect x="500" y="200" width="60" height="40" fill="#8b4513" stroke="#654321" stroke-width="2"/>
+  <rect x="520" y="180" width="20" height="20" fill="#654321"/>
+  <text x="530" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Seyir Platformu</text>
+  
+  <!-- Picnic areas -->
+  <rect x="200" y="350" width="40" height="30" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <rect x="300" y="360" width="40" height="30" fill="#8b4513" stroke="#654321" stroke-width="1"/>
+  <circle cx="220" cy="340" r="8" fill="#228b22"/>
+  <circle cx="320" cy="350" r="8" fill="#228b22"/>
+  <text x="220" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Piknik Alanları</text>
+  
+  <!-- Parking area -->
+  <rect x="50" y="450" width="100" height="60" fill="#696969" stroke="#2c3e50" stroke-width="2"/>
+  <rect x="60" y="460" width="15" height="25" fill="#fff" stroke="#000" stroke-width="1"/>
+  <rect x="80" y="460" width="15" height="25" fill="#fff" stroke="#000" stroke-width="1"/>
+  <rect x="100" y="460" width="15" height="25" fill="#fff" stroke="#000" stroke-width="1"/>
+  <rect x="120" y="460" width="15" height="25" fill="#fff" stroke="#000" stroke-width="1"/>
+  <text x="100" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Otopark</text>
+  
+  <!-- Entrance -->
+  <rect x="50" y="400" width="80" height="30" fill="#8b4513" stroke="#654321" stroke-width="2"/>
+  <text x="90" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fff">GİRİŞ</text>
+  
+  <!-- Distance markers -->
+  <circle cx="200" cy="300" r="8" fill="#ff6b6b"/>
+  <text x="200" y="306" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#fff" font-weight="bold">1</text>
+  <text x="200" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">500m</text>
+  
+  <circle cx="350" cy="300" r="8" fill="#ff6b6b"/>
+  <text x="350" y="306" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#fff" font-weight="bold">2</text>
+  <text x="350" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">1.5km</text>
+  
+  <circle cx="530" cy="300" r="8" fill="#ff6b6b"/>
+  <text x="530" y="306" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#fff" font-weight="bold">3</text>
+  <text x="530" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">2.5km</text>
+  
+  <circle cx="640" cy="300" r="8" fill="#ff6b6b"/>
+  <text x="640" y="306" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#fff" font-weight="bold">4</text>
+  <text x="640" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">3km</text>
+  
+  <!-- Legend -->
+  <rect x="20" y="50" width="180" height="120" fill="#fff" stroke="#2c3e50" stroke-width="2" rx="5"/>
+  <text x="110" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">LEJANt</text>
+  
+  <rect x="30" y="80" width="15" height="8" fill="#8b4513"/>
+  <text x="50" y="88" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Ahşap Platform</text>
+  
+  <circle cx="37" cy="100" r="4" fill="#87ceeb"/>
+  <text x="50" y="104" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Şelale</text>
+  
+  <circle cx="37" cy="115" r="4" fill="#228b22"/>
+  <text x="50" y="119" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Orman Alanı</text>
+  
+  <circle cx="37" cy="130" r="4" fill="#ff6b6b"/>
+  <text x="50" y="134" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Mesafe İşaretleri</text>
+  
+  <rect x="30" y="145" width="15" height="8" fill="#696969"/>
+  <text x="50" y="153" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Otopark</text>
+  
+  <!-- Compass -->
+  <circle cx="720" cy="80" r="30" fill="#fff" stroke="#2c3e50" stroke-width="2"/>
+  <path d="M720 55 L725 70 L720 85 L715 70 Z" fill="#ff6b6b"/>
+  <text x="720" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">K</text>
+  <text x="720" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Pusula</text>
+  
+  <!-- Scale -->
+  <text x="600" y="550" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Ölçek: 1:5000</text>
+  <rect x="600" y="560" width="50" height="3" fill="#2c3e50"/>
+  <text x="625" y="580" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">250m</text>
+</svg>

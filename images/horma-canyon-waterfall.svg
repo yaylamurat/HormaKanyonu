@@ -1,0 +1,206 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background sky with gradient -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E0F6FF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waterfallGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0F6FF;stop-opacity:0.9" />
+      <stop offset="50%" style="stop-color:#B0E0E6;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#87CEEB;stop-opacity:0.5" />
+    </linearGradient>
+    <radialGradient id="poolGradient" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#4682B4;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#2F4F4F;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="rockGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D2B48C;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#A0926B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B7355;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="400" height="300" fill="url(#skyGradient)"/>
+  
+  <!-- Canyon walls -->
+  <path d="M0 20 Q50 10 100 15 Q150 10 200 20 Q250 15 300 25 Q350 20 400 30 L400 300 L0 300 Z" fill="url(#rockGradient)"/>
+  <path d="M0 50 Q60 40 120 45 Q180 40 240 50 Q300 45 360 55 Q380 50 400 60 L400 300 L0 300 Z" fill="#A0926B"/>
+  <path d="M0 80 Q80 70 160 75 Q240 70 320 80 Q360 75 400 85 L400 300 L0 300 Z" fill="#B8A082"/>
+  
+  <!-- Waterfall cliff -->
+  <path d="M280 30 L320 30 L320 180 Q315 185 310 180 Q305 175 300 180 Q295 185 290 180 Q285 175 280 180 Z" fill="#696969"/>
+  <path d="M285 35 L315 35 L315 175 Q312 178 309 175 Q306 172 303 175 Q300 178 297 175 Q294 172 291 175 Q288 178 285 175 Z" fill="#778899"/>
+  
+  <!-- Main waterfall (Ilıca Şelalesi) -->
+  <!-- Water streams -->
+  <path d="M300 30 Q302 60 304 90 Q306 120 308 150 Q310 170 312 180" stroke="url(#waterfallGradient)" stroke-width="12" fill="none" opacity="0.9"/>
+  <path d="M298 30 Q300 60 302 90 Q304 120 306 150 Q308 170 310 180" stroke="url(#waterfallGradient)" stroke-width="8" fill="none" opacity="0.7"/>
+  <path d="M302 30 Q304 60 306 90 Q308 120 310 150 Q312 170 314 180" stroke="url(#waterfallGradient)" stroke-width="8" fill="none" opacity="0.7"/>
+  
+  <!-- Water spray and mist -->
+  <circle cx="295" cy="100" r="2" fill="#E0F6FF" opacity="0.6"/>
+  <circle cx="315" cy="110" r="1.5" fill="#E0F6FF" opacity="0.5"/>
+  <circle cx="290" cy="130" r="2.5" fill="#E0F6FF" opacity="0.4"/>
+  <circle cx="320" cy="140" r="2" fill="#E0F6FF" opacity="0.5"/>
+  <circle cx="285" cy="160" r="3" fill="#E0F6FF" opacity="0.3"/>
+  <circle cx="325" cy="165" r="2.5" fill="#E0F6FF" opacity="0.4"/>
+  
+  <!-- Heart-shaped natural pool -->
+  <path d="M280 180 Q270 170 260 180 Q250 190 260 200 Q270 210 300 220 Q330 210 340 200 Q350 190 340 180 Q330 170 320 180 Q310 175 300 180 Q290 175 280 180 Z" fill="url(#poolGradient)"/>
+  
+  <!-- Pool surface reflections -->
+  <ellipse cx="290" cy="190" rx="8" ry="3" fill="#B0E0E6" opacity="0.6"/>
+  <ellipse cx="310" cy="195" rx="10" ry="4" fill="#B0E0E6" opacity="0.5"/>
+  <ellipse cx="320" cy="200" rx="6" ry="2" fill="#B0E0E6" opacity="0.7"/>
+  
+  <!-- Pool ripples -->
+  <ellipse cx="300" cy="200" rx="15" ry="5" fill="none" stroke="#87CEEB" stroke-width="1" opacity="0.4"/>
+  <ellipse cx="300" cy="200" rx="25" ry="8" fill="none" stroke="#87CEEB" stroke-width="1" opacity="0.3"/>
+  <ellipse cx="300" cy="200" rx="35" ry="12" fill="none" stroke="#87CEEB" stroke-width="1" opacity="0.2"/>
+  
+  <!-- Rocky formations around pool -->
+  <ellipse cx="250" cy="210" rx="12" ry="8" fill="#696969"/>
+  <ellipse cx="350" cy="215" rx="15" ry="10" fill="#696969"/>
+  <ellipse cx="270" cy="230" rx="8" ry="5" fill="#778899"/>
+  <ellipse cx="330" cy="235" rx="10" ry="6" fill="#778899"/>
+  
+  <!-- Moss on rocks -->
+  <circle cx="245" cy="208" r="2" fill="#228B22" opacity="0.7"/>
+  <circle cx="255" cy="212" r="1.5" fill="#32CD32" opacity="0.7"/>
+  <circle cx="345" cy="213" r="2.5" fill="#228B22" opacity="0.7"/>
+  <circle cx="355" cy="217" r="2" fill="#32CD32" opacity="0.7"/>
+  
+  <!-- Vegetation around waterfall -->
+  <!-- Ferns -->
+  <g transform="translate(220, 200)">
+    <rect x="0" y="0" width="1" height="15" fill="#228B22"/>
+    <path d="M0 0 Q-3 -2 -6 0 Q-4 2 -2 1 Q-1 0 0 0" fill="#32CD32"/>
+    <path d="M0 -3 Q-4 -5 -7 -3 Q-5 -1 -3 -2 Q-1 -3 0 -3" fill="#32CD32"/>
+    <path d="M0 -6 Q-5 -8 -8 -6 Q-6 -4 -4 -5 Q-2 -6 0 -6" fill="#32CD32"/>
+    <path d="M0 0 Q3 -2 6 0 Q4 2 2 1 Q1 0 0 0" fill="#32CD32"/>
+    <path d="M0 -3 Q4 -5 7 -3 Q5 -1 3 -2 Q1 -3 0 -3" fill="#32CD32"/>
+    <path d="M0 -6 Q5 -8 8 -6 Q6 -4 4 -5 Q2 -6 0 -6" fill="#32CD32"/>
+  </g>
+  
+  <g transform="translate(380, 205)">
+    <rect x="0" y="0" width="1" height="12" fill="#228B22"/>
+    <path d="M0 0 Q-2 -2 -4 0 Q-3 1 -1 1 Q0 0 0 0" fill="#32CD32"/>
+    <path d="M0 -2 Q-3 -4 -5 -2 Q-4 -1 -2 -1 Q0 -2 0 -2" fill="#32CD32"/>
+    <path d="M0 -4 Q-4 -6 -6 -4 Q-5 -3 -3 -3 Q0 -4 0 -4" fill="#32CD32"/>
+    <path d="M0 0 Q2 -2 4 0 Q3 1 1 1 Q0 0 0 0" fill="#32CD32"/>
+    <path d="M0 -2 Q3 -4 5 -2 Q4 -1 2 -1 Q0 -2 0 -2" fill="#32CD32"/>
+  </g>
+  
+  <!-- Boxwood trees -->
+  <ellipse cx="180" cy="180" rx="20" ry="15" fill="#228B22"/>
+  <ellipse cx="185" cy="178" rx="15" ry="12" fill="#32CD32"/>
+  <ellipse cx="175" cy="182" rx="12" ry="9" fill="#228B22"/>
+  
+  <ellipse cx="120" cy="190" rx="18" ry="13" fill="#228B22"/>
+  <ellipse cx="125" cy="188" rx="13" ry="10" fill="#32CD32"/>
+  <ellipse cx="115" cy="192" rx="10" ry="8" fill="#228B22"/>
+  
+  <!-- Visitors enjoying the waterfall -->
+  <!-- Tourist taking photos -->
+  <circle cx="200" cy="215" r="4" fill="#FFE4C4"/>
+  <rect x="198" y="219" width="4" height="8" fill="#FF6347"/>
+  <rect x="196" y="227" width="2" height="6" fill="#000080"/>
+  <rect x="202" y="227" width="2" height="6" fill="#000080"/>
+  <rect x="194" y="221" width="6" height="3" fill="#000000"/> <!-- Camera -->
+  <circle cx="191" cy="222" r="1" fill="#333333"/> <!-- Lens -->
+  
+  <!-- Family enjoying the view -->
+  <circle cx="150" cy="220" r="4" fill="#FFE4C4"/>
+  <rect x="148" y="224" width="4" height="8" fill="#4169E1"/>
+  <rect x="146" y="232" width="2" height="6" fill="#000080"/>
+  <rect x="152" y="232" width="2" height="6" fill="#000080"/>
+  
+  <circle cx="165" cy="220" r="3.5" fill="#FFE4C4"/>
+  <rect x="163.5" y="223.5" width="3" height="7" fill="#FF69B4"/>
+  <rect x="162" y="230.5" width="1.5" height="5" fill="#000080"/>
+  <rect x="166.5" y="230.5" width="1.5" height="5" fill="#000080"/>
+  
+  <!-- Child -->
+  <circle cx="158" cy="225" r="2.5" fill="#FFE4C4"/>
+  <rect x="156.5" y="227.5" width="3" height="5" fill="#32CD32"/>
+  <rect x="156" y="232.5" width="1" height="4" fill="#000080"/>
+  <rect x="159" y="232.5" width="1" height="4" fill="#000080"/>
+  
+  <!-- Wooden viewing platform -->
+  <rect x="130" y="240" width="80" height="25" fill="#D2691E" rx="3"/>
+  <rect x="135" y="245" width="70" height="15" fill="#CD853F" rx="2"/>
+  
+  <!-- Platform railings -->
+  <rect x="130" y="235" width="80" height="2" fill="#8B4513"/>
+  <rect x="130" y="235" width="2" height="10" fill="#8B4513"/>
+  <rect x="208" y="235" width="2" height="10" fill="#8B4513"/>
+  
+  <!-- Support posts -->
+  <rect x="140" y="265" width="3" height="15" fill="#8B4513"/>
+  <rect x="160" y="265" width="3" height="15" fill="#8B4513"/>
+  <rect x="180" y="265" width="3" height="15" fill="#8B4513"/>
+  <rect x="200" y="265" width="3" height="15" fill="#8B4513"/>
+  
+  <!-- Stream flowing from pool -->
+  <path d="M260 220 Q200 230 140 235 Q80 240 20 245 L0 250 L0 300 L400 300 L400 280 Q350 275 300 270 Q280 265 260 220" fill="#4682B4"/>
+  
+  <!-- Stream surface -->
+  <path d="M250 225 Q190 235 130 240 Q70 245 10 250 L0 255 L0 300 L400 300 L400 285 Q340 280 290 275 Q270 270 250 225" fill="#5F9EA0"/>
+  
+  <!-- Water lilies in calm areas -->
+  <ellipse cx="100" cy="250" rx="3" ry="2" fill="#228B22"/>
+  <circle cx="100" cy="250" r="1.5" fill="#FFB6C1"/>
+  <circle cx="100" cy="250" r="0.8" fill="#FF69B4"/>
+  
+  <ellipse cx="80" cy="255" rx="2.5" ry="1.8" fill="#228B22"/>
+  <circle cx="80" cy="255" r="1.2" fill="#FFFFFF"/>
+  <circle cx="80" cy="255" r="0.6" fill="#FFD700"/>
+  
+  <!-- Birds -->
+  <path d="M150 60 Q155 58 160 60 Q155 62 150 60" fill="#2F4F4F"/>
+  <path d="M250 50 Q255 48 260 50 Q255 52 250 50" fill="#4169E1"/>
+  <path d="M350 70 Q355 68 360 70 Q355 72 350 70" fill="#DC143C"/>
+  
+  <!-- Clouds -->
+  <circle cx="80" cy="40" r="15" fill="white" opacity="0.9"/>
+  <circle cx="95" cy="40" r="18" fill="white" opacity="0.9"/>
+  <circle cx="112" cy="40" r="15" fill="white" opacity="0.9"/>
+  
+  <circle cx="320" cy="35" r="12" fill="white" opacity="0.9"/>
+  <circle cx="332" cy="35" r="15" fill="white" opacity="0.9"/>
+  <circle cx="346" cy="35" r="12" fill="white" opacity="0.9"/>
+  
+  <!-- Title -->
+  <text x="200" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2C2C2C">Ilıca Şelalesi</text>
+  
+  <!-- Legend -->
+  <g transform="translate(10, 25)">
+    <rect x="0" y="0" width="160" height="120" fill="white" stroke="#ccc" stroke-width="1" rx="5" opacity="0.95"/>
+    <text x="80" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">Şelale Özellikleri</text>
+    
+    <line x1="10" y1="25" x2="25" y2="25" stroke="url(#waterfallGradient)" stroke-width="4"/>
+    <text x="30" y="28" font-family="Arial, sans-serif" font-size="10" fill="#333">10-15m Yükseklik</text>
+    
+    <path d="M10 35 Q15 33 20 35 Q25 37 30 35" fill="url(#poolGradient)"/>
+    <text x="35" y="38" font-family="Arial, sans-serif" font-size="10" fill="#333">Kalp Şekilli Havuz</text>
+    
+    <rect x="10" y="45" width="20" height="3" fill="#D2691E"/>
+    <text x="35" y="48" font-family="Arial, sans-serif" font-size="10" fill="#333">Ahşap Platform</text>
+    
+    <circle cx="15" cy="58" r="2" fill="#228B22"/>
+    <text x="25" y="61" font-family="Arial, sans-serif" font-size="10" fill="#333">Eğrelti Otları</text>
+    
+    <circle cx="15" cy="70" r="1.5" fill="#FFB6C1"/>
+    <text x="25" y="73" font-family="Arial, sans-serif" font-size="10" fill="#333">Su Zambakları</text>
+    
+    <ellipse cx="15" cy="83" rx="8" ry="6" fill="#228B22"/>
+    <text x="30" y="86" font-family="Arial, sans-serif" font-size="10" fill="#333">Şimşir Ormanları</text>
+    
+    <circle cx="15" cy="95" r="2" fill="#E0F6FF" opacity="0.6"/>
+    <text x="25" y="98" font-family="Arial, sans-serif" font-size="10" fill="#333">Su Sisi</text>
+    
+    <text x="80" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">Yıl Boyu Aktif - En Güzel: İlkbahar</text>
+  </g>
+</svg>

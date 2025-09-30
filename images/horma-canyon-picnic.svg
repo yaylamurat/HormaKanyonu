@@ -1,0 +1,159 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background sky -->
+  <rect width="400" height="300" fill="#87CEEB"/>
+  
+  <!-- Mountains in background -->
+  <path d="M0 100 Q100 80 200 90 Q300 85 400 95 L400 300 L0 300 Z" fill="#8FBC8F"/>
+  <path d="M0 120 Q150 100 300 110 Q350 105 400 115 L400 300 L0 300 Z" fill="#9ACD32"/>
+  
+  <!-- Ground -->
+  <path d="M0 180 Q100 170 200 175 Q300 170 400 180 L400 300 L0 300 Z" fill="#228B22"/>
+  
+  <!-- Trees -->
+  <!-- Tree 1 -->
+  <rect x="50" y="120" width="8" height="60" fill="#8B4513"/>
+  <circle cx="54" cy="120" r="25" fill="#228B22"/>
+  <circle cx="48" cy="115" r="18" fill="#32CD32"/>
+  <circle cx="60" cy="118" r="20" fill="#228B22"/>
+  
+  <!-- Tree 2 -->
+  <rect x="320" y="130" width="10" height="50" fill="#8B4513"/>
+  <circle cx="325" cy="130" r="28" fill="#228B22"/>
+  <circle cx="318" cy="125" r="20" fill="#32CD32"/>
+  <circle cx="332" cy="128" r="22" fill="#228B22"/>
+  
+  <!-- Tree 3 -->
+  <rect x="380" y="140" width="6" height="40" fill="#8B4513"/>
+  <circle cx="383" cy="140" r="18" fill="#228B22"/>
+  <circle cx="378" cy="135" r="15" fill="#32CD32"/>
+  
+  <!-- Picnic tables -->
+  <!-- Table 1 -->
+  <rect x="120" y="200" width="60" height="30" fill="#8B4513" rx="3"/>
+  <rect x="115" y="215" width="70" height="8" fill="#A0522D" rx="2"/>
+  <rect x="125" y="230" width="8" height="15" fill="#8B4513"/>
+  <rect x="157" y="230" width="8" height="15" fill="#8B4513"/>
+  
+  <!-- Bench 1 -->
+  <rect x="110" y="245" width="80" height="6" fill="#A0522D" rx="2"/>
+  <rect x="120" y="245" width="6" height="12" fill="#8B4513"/>
+  <rect x="164" y="245" width="6" height="12" fill="#8B4513"/>
+  
+  <!-- Table 2 -->
+  <rect x="220" y="190" width="60" height="30" fill="#8B4513" rx="3"/>
+  <rect x="215" y="205" width="70" height="8" fill="#A0522D" rx="2"/>
+  <rect x="225" y="220" width="8" height="15" fill="#8B4513"/>
+  <rect x="257" y="220" width="8" height="15" fill="#8B4513"/>
+  
+  <!-- Bench 2 -->
+  <rect x="210" y="235" width="80" height="6" fill="#A0522D" rx="2"/>
+  <rect x="220" y="235" width="6" height="12" fill="#8B4513"/>
+  <rect x="264" y="235" width="6" height="12" fill="#8B4513"/>
+  
+  <!-- Picnic items on tables -->
+  <!-- Basket -->
+  <ellipse cx="140" cy="210" rx="8" ry="6" fill="#D2691E"/>
+  <path d="M132 210 Q140 205 148 210" stroke="#8B4513" stroke-width="2" fill="none"/>
+  
+  <!-- Food items -->
+  <circle cx="155" cy="208" r="3" fill="#FF6347"/> <!-- Apple -->
+  <rect x="160" y="206" width="8" height="4" fill="#FFD700" rx="1"/> <!-- Sandwich -->
+  
+  <!-- Drinks -->
+  <rect x="240" y="200" width="4" height="12" fill="#4169E1" rx="1"/>
+  <rect x="250" y="200" width="4" height="12" fill="#32CD32" rx="1"/>
+  
+  <!-- Trash bins -->
+  <rect x="90" y="240" width="12" height="18" fill="#696969" rx="2"/>
+  <rect x="88" y="238" width="16" height="3" fill="#808080" rx="1"/>
+  
+  <rect x="300" y="230" width="12" height="18" fill="#696969" rx="2"/>
+  <rect x="298" y="228" width="16" height="3" fill="#808080" rx="1"/>
+  
+  <!-- Playground equipment -->
+  <!-- Swing set -->
+  <rect x="70" y="190" width="4" height="40" fill="#8B4513"/>
+  <rect x="85" y="190" width="4" height="40" fill="#8B4513"/>
+  <rect x="70" y="190" width="19" height="4" fill="#8B4513"/>
+  
+  <!-- Swings -->
+  <line x1="75" y1="194" x2="75" y2="220" stroke="#654321" stroke-width="1"/>
+  <line x1="83" y1="194" x2="83" y2="220" stroke="#654321" stroke-width="1"/>
+  <rect x="72" y="220" width="6" height="3" fill="#FF4500" rx="1"/>
+  <rect x="80" y="220" width="6" height="3" fill="#FF4500" rx="1"/>
+  
+  <!-- Slide -->
+  <rect x="340" y="200" width="25" height="30" fill="#FFD700"/>
+  <path d="M340 215 Q350 210 365 215" stroke="#FFA500" stroke-width="3" fill="none"/>
+  <rect x="362" y="230" width="8" height="15" fill="#8B4513"/>
+  
+  <!-- Flowers and decorations -->
+  <circle cx="100" cy="260" r="2" fill="#FF69B4"/>
+  <circle cx="105" cy="258" r="2" fill="#FF1493"/>
+  <circle cx="110" cy="262" r="2" fill="#FF69B4"/>
+  
+  <circle cx="280" cy="255" r="2" fill="#9370DB"/>
+  <circle cx="285" cy="253" r="2" fill="#8A2BE2"/>
+  <circle cx="290" cy="257" r="2" fill="#9370DB"/>
+  
+  <!-- Pathway -->
+  <path d="M0 270 Q100 265 200 270 Q300 265 400 270 Q350 275 200 275 Q100 275 0 275 Z" fill="#D2B48C"/>
+  
+  <!-- People silhouettes -->
+  <!-- Family 1 -->
+  <circle cx="150" cy="185" r="4" fill="#FFE4C4"/> <!-- Head -->
+  <rect x="148" y="189" width="4" height="8" fill="#4169E1"/> <!-- Body -->
+  <rect x="146" y="197" width="2" height="6" fill="#000080"/> <!-- Legs -->
+  <rect x="152" y="197" width="2" height="6" fill="#000080"/>
+  
+  <!-- Child -->
+  <circle cx="165" cy="190" r="3" fill="#FFE4C4"/>
+  <rect x="163" y="193" width="4" height="6" fill="#FF69B4"/>
+  <rect x="162" y="199" width="2" height="4" fill="#000080"/>
+  <rect x="166" y="199" width="2" height="4" fill="#000080"/>
+  
+  <!-- Family 2 -->
+  <circle cx="240" cy="180" r="4" fill="#FFE4C4"/>
+  <rect x="238" y="184" width="4" height="8" fill="#228B22"/>
+  <rect x="236" y="192" width="2" height="6" fill="#000080"/>
+  <rect x="242" y="192" width="2" height="6" fill="#000080"/>
+  
+  <!-- Water fountain -->
+  <circle cx="200" cy="250" r="15" fill="#4682B4"/>
+  <circle cx="200" cy="250" r="10" fill="#87CEEB"/>
+  <rect x="198" y="265" width="4" height="10" fill="#696969"/>
+  <!-- Water drops -->
+  <circle cx="200" cy="240" r="1" fill="#00BFFF"/>
+  <circle cx="202" cy="238" r="0.8" fill="#00BFFF"/>
+  <circle cx="198" cy="242" r="0.8" fill="#00BFFF"/>
+  
+  <!-- Clouds -->
+  <circle cx="80" cy="40" r="15" fill="white" opacity="0.8"/>
+  <circle cx="95" cy="40" r="18" fill="white" opacity="0.8"/>
+  <circle cx="110" cy="40" r="15" fill="white" opacity="0.8"/>
+  
+  <circle cx="300" cy="50" r="12" fill="white" opacity="0.8"/>
+  <circle cx="312" cy="50" r="15" fill="white" opacity="0.8"/>
+  <circle cx="325" cy="50" r="12" fill="white" opacity="0.8"/>
+  
+  <!-- Title -->
+  <text x="200" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2C2C2C">Horma Kanyonu Piknik Alanları</text>
+  
+  <!-- Legend -->
+  <g transform="translate(20, 20)">
+    <rect x="0" y="0" width="150" height="80" fill="white" stroke="#ccc" stroke-width="1" rx="5" opacity="0.9"/>
+    <text x="75" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">Tesis Özellikleri</text>
+    
+    <rect x="10" y="25" width="8" height="6" fill="#8B4513"/>
+    <text x="25" y="30" font-family="Arial, sans-serif" font-size="10" fill="#333">Piknik Masaları</text>
+    
+    <circle cx="14" cy="40" r="3" fill="#4682B4"/>
+    <text x="25" y="45" font-family="Arial, sans-serif" font-size="10" fill="#333">Su Çeşmesi</text>
+    
+    <rect x="10" y="50" width="8" height="6" fill="#696969"/>
+    <text x="25" y="55" font-family="Arial, sans-serif" font-size="10" fill="#333">Çöp Kutuları</text>
+    
+    <rect x="10" y="65" width="8" height="6" fill="#FFD700"/>
+    <text x="25" y="70" font-family="Arial, sans-serif" font-size="10" fill="#333">Oyun Alanı</text>
+  </g>
+</svg>

@@ -1,0 +1,91 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f5f5f0"/>
+  
+  <!-- Canyon walls -->
+  <path d="M0 50 Q50 30 100 40 Q150 35 200 45 Q250 40 300 50 Q350 45 400 55 L400 300 L0 300 Z" fill="#8B7355"/>
+  <path d="M0 80 Q60 60 120 70 Q180 65 240 75 Q300 70 360 80 Q380 75 400 85 L400 300 L0 300 Z" fill="#A0926B"/>
+  
+  <!-- Cave entrances -->
+  <!-- Main cave -->
+  <ellipse cx="120" cy="120" rx="35" ry="25" fill="#2C2C2C"/>
+  <ellipse cx="120" cy="120" rx="30" ry="20" fill="#1A1A1A"/>
+  <ellipse cx="120" cy="120" rx="20" ry="15" fill="#000000"/>
+  
+  <!-- Secondary cave -->
+  <ellipse cx="280" cy="140" rx="25" ry="18" fill="#2C2C2C"/>
+  <ellipse cx="280" cy="140" rx="20" ry="14" fill="#1A1A1A"/>
+  <ellipse cx="280" cy="140" rx="12" ry="10" fill="#000000"/>
+  
+  <!-- Small cave -->
+  <ellipse cx="200" cy="100" rx="15" ry="12" fill="#2C2C2C"/>
+  <ellipse cx="200" cy="100" rx="10" ry="8" fill="#1A1A1A"/>
+  <ellipse cx="200" cy="100" rx="6" ry="5" fill="#000000"/>
+  
+  <!-- Rock formations around caves -->
+  <path d="M85 130 Q100 115 115 125 Q130 120 145 135 Q140 145 125 140 Q110 145 95 140 Z" fill="#7A6B4F"/>
+  <path d="M250 155 Q265 140 280 150 Q295 145 310 160 Q305 170 290 165 Q275 170 260 165 Z" fill="#7A6B4F"/>
+  
+  <!-- Stalactites and stalagmites -->
+  <path d="M110 95 L115 120 L120 95 Z" fill="#9B8C6F"/>
+  <path d="M125 95 L130 115 L135 95 Z" fill="#9B8C6F"/>
+  <path d="M270 125 L275 145 L280 125 Z" fill="#9B8C6F"/>
+  
+  <!-- Water seepage -->
+  <path d="M118 120 Q120 130 122 140 Q120 150 118 160" stroke="#4A90E2" stroke-width="2" fill="none" opacity="0.7"/>
+  <path d="M278 140 Q280 150 282 160 Q280 170 278 180" stroke="#4A90E2" stroke-width="1.5" fill="none" opacity="0.7"/>
+  
+  <!-- Moss and vegetation -->
+  <circle cx="105" cy="135" r="3" fill="#228B22"/>
+  <circle cx="108" cy="138" r="2" fill="#32CD32"/>
+  <circle cx="135" cy="125" r="2.5" fill="#228B22"/>
+  <circle cx="265" cy="155" r="3" fill="#228B22"/>
+  <circle cx="295" cy="160" r="2" fill="#32CD32"/>
+  
+  <!-- Rock textures -->
+  <path d="M50 90 Q70 85 90 95 Q110 90 130 100" stroke="#6B5B3F" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M150 85 Q170 80 190 90 Q210 85 230 95" stroke="#6B5B3F" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M250 90 Q270 85 290 95 Q310 90 330 100" stroke="#6B5B3F" stroke-width="1" fill="none" opacity="0.5"/>
+  
+  <!-- Shadows and depth -->
+  <ellipse cx="120" cy="145" rx="40" ry="8" fill="#000000" opacity="0.2"/>
+  <ellipse cx="280" cy="165" rx="30" ry="6" fill="#000000" opacity="0.2"/>
+  <ellipse cx="200" cy="125" rx="20" ry="4" fill="#000000" opacity="0.2"/>
+  
+  <!-- Cave interior details -->
+  <path d="M105 115 Q115 110 125 115 Q120 125 115 120 Q110 125 105 120 Z" fill="#404040" opacity="0.6"/>
+  <path d="M265 135 Q275 130 285 135 Q280 145 275 140 Q270 145 265 140 Z" fill="#404040" opacity="0.6"/>
+  
+  <!-- Mineral deposits -->
+  <circle cx="112" cy="118" r="1.5" fill="#FFD700" opacity="0.8"/>
+  <circle cx="128" cy="122" r="1" fill="#FFD700" opacity="0.8"/>
+  <circle cx="275" cy="138" r="1.2" fill="#FFD700" opacity="0.8"/>
+  <circle cx="285" cy="142" r="0.8" fill="#FFD700" opacity="0.8"/>
+  
+  <!-- Ground level -->
+  <path d="M0 200 Q100 190 200 195 Q300 190 400 200 L400 300 L0 300 Z" fill="#8FBC8F"/>
+  
+  <!-- Small rocks and debris -->
+  <ellipse cx="80" cy="195" rx="8" ry="4" fill="#696969"/>
+  <ellipse cx="150" cy="198" rx="6" ry="3" fill="#696969"/>
+  <ellipse cx="220" cy="192" rx="7" ry="4" fill="#696969"/>
+  <ellipse cx="320" cy="196" rx="5" ry="3" fill="#696969"/>
+  
+  <!-- Title -->
+  <text x="200" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2C2C2C">Horma Kanyonu Doğal Mağaraları</text>
+  
+  <!-- Legend -->
+  <g transform="translate(20, 220)">
+    <rect x="0" y="0" width="160" height="70" fill="white" stroke="#ccc" stroke-width="1" rx="5"/>
+    <text x="80" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#333">Mağara Özellikleri</text>
+    
+    <circle cx="15" cy="30" r="4" fill="#1A1A1A"/>
+    <text x="25" y="35" font-family="Arial, sans-serif" font-size="10" fill="#333">Ana Mağara Girişi</text>
+    
+    <circle cx="15" cy="45" r="3" fill="#FFD700"/>
+    <text x="25" y="50" font-family="Arial, sans-serif" font-size="10" fill="#333">Mineral Yatakları</text>
+    
+    <circle cx="15" cy="60" r="2" fill="#4A90E2"/>
+    <text x="25" y="65" font-family="Arial, sans-serif" font-size="10" fill="#333">Su Sızıntıları</text>
+  </g>
+</svg>
